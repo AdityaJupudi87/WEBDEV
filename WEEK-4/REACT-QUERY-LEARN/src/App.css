@@ -1,0 +1,39 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+img{
+  width: 250px;
+  height: 300px;
+}
+
+.product{
+  width: 300px
+}
+
+.products{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 1rem;
+}
+
+.products-category {
+  padding: 2rem;
+}
+nav a {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
