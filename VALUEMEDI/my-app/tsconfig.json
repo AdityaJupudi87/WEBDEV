@@ -1,0 +1,17 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts"
+, "app/tabs/placeorder.jsx", "app/orderdetails.jsx", "app/tabs/all-orders.jsx", "app/tabs/menu.jsx", "app/tabs/payments.jsx", "app/tabs/shortages.jsx", "app/register.jsx", "app/index.jsx", "app/_layout.jsx", "app/stack/AppNavigator.jsx"  ]
+}

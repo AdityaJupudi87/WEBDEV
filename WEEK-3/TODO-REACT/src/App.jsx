@@ -7,6 +7,7 @@ function App() {
         <TaskProvider>
             <ToDoList />
         </TaskProvider>
+        
     );
 }
 
